@@ -29,5 +29,5 @@ if (QPANDA_FOUND)
     include_directories(${QPANDA_INCLUDE_DIR})
 endif (QPANDA_FOUND)
 
-add_executable(${PROJECT_NAME} test.cpp)
+add_executable(${PROJECT_NAME} QCircuit.cpp)
 target_link_libraries(${PROJECT_NAME} ${QPANDA_LIBRARIES})
