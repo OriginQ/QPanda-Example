@@ -7,7 +7,7 @@ int main(void)
 	auto q = qAllocMany(3);
 	QVec qubits = { q[0],q[1] };
 
-	auto prog = CreateEmptyQProg();
+	auto prog = createEmptyQProg();
 	prog << H(q[0])
 		<< H(q[1])
 		<< H(q[0]).dagger()

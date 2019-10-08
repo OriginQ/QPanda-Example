@@ -16,7 +16,7 @@ int main(void)
 	branch_true << (cvec[1] = cvec[1] + 1) << H(qvec[cvec[0]]) << (cvec[0] = cvec[0] + 1);
 	branch_false << H(qvec[0]) << CNOT(qvec[0], qvec[1]) << CNOT(qvec[1], qvec[2]);
 
-	auto qif = CreateIfProg(cvec[1] > 5, branch_true, branch_false);
+	auto qif = createIfProg(cvec[1] > 5, branch_true, branch_false);
 	prog << qif;
 	auto result = probRunTupleList(prog, qvec);
 

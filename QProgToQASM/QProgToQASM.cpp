@@ -5,8 +5,8 @@ int main(void)
 {
 	auto qvm = initQuantumMachine();
 
-	auto prog = CreateEmptyQProg();
-	auto cir = CreateEmptyCircuit();
+	auto prog = createEmptyQProg();
+	auto cir = createEmptyCircuit();
 
 	auto q = qvm->allocateQubits(6);
 	auto c = qvm->allocateCBits(6);

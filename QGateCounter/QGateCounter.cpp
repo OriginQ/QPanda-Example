@@ -14,7 +14,7 @@ int main(void)
 		<< RX(qubits[0], 3.14)
 		<< Measure(qubits[1], cbits[0]);
 
-	size_t num = getQGateNumber(prog);
+	size_t num = getQGateNum(prog);
 	std::cout << "QGate number: " << num << std::endl;
 	finalize();
 
