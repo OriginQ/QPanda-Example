@@ -10,8 +10,7 @@ int main(void)
 	single_gate.push_back("H");
 	single_gate.push_back("S");
 
-
-	auto single_gate_type = SingleGateTypeValidator::GateType(single_gate, valid_single_gate);
+	auto single_gate_type = validateSingleQGateType(single_gate, valid_single_gate);
 
 	std::cout << "SingleGateTransferType: " << single_gate_type << std::endl;
 	for (auto &val : valid_single_gate)
@@ -28,7 +27,7 @@ int main(void)
 	double_gate.push_back("CZ");
 
 
-	auto double_gate_type = DoubleGateTypeValidator::GateType(double_gate, valid_double_gate);
+	auto double_gate_type = validateDoubleQGateType(double_gate, valid_double_gate);
 
 	std::cout << "doubleGateTransferType: " << double_gate_type << std::endl;
 	for (auto &val : valid_double_gate)

@@ -12,7 +12,7 @@ int main(void)
 
 	std::string data_str = "AAAAAAQAAAAEAAAABAAAAA4AAQAAAAAAJAACAAAAAQAkAAMAAQACACQABAACAAMA";
 	auto data = Base64::decode(data_str.data(), data_str.size());
-	binaryQProgDataParse(qvm, data, qubits_parse, cbits_parse, parseProg);
+	transformBinaryDataToQProg(qvm, data, qubits_parse, cbits_parse, parseProg);
 
 	auto result_parse = probRunTupleList(parseProg, qubits_parse);
 	for (auto &val : result_parse)

@@ -11,7 +11,7 @@ int main(void)
 
 	QProg prog_in;
 	prog_in << cvec[0] << H(qvec[cvec[0]]) << (cvec[0] = cvec[0] + 1);
-	auto qwhile = CreateWhileProg(cvec[0] < 3, prog_in);
+	auto qwhile = createWhileProg(cvec[0] < 3, prog_in);
 	prog << qwhile;
 	auto result = probRunTupleList(prog, qvec);
 
