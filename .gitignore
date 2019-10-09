@@ -32,3 +32,7 @@
 *.app
 
 .vs
+x64
+x86
+*.filters
+*.user
