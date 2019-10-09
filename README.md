@@ -31,9 +31,21 @@ visual studio 2017 下链接QPanda库需要配置QPanda的头文件地址和QPan
 
 ![avatar](./img/配置平台.png)
 
-## MinGW、Linux、macOS
+## MinGW
 
-MinGW、Linux、macOS链接QPanda库，可以使用CMake工具，下面以GateTypeValidator项目为例，使用命令如下：
+MinGW链接QPanda库，可以使用CMake工具，下面以GateTypeValidator项目为例，使用命令如下：
+
+```
+cd GateTypeValidator
+mkdir -p build
+cd build
+cmake -G"MinGW Makefiles" -DQPANDA_INSTALL_DIR=C:/QPanda2/ .. # C:/QPanda2/ 是笔者的安装QPanda的路径
+make
+```
+
+## Linux、macOS
+
+Linux、macOS链接QPanda库，可以使用CMake工具，下面以GateTypeValidator项目为例，使用命令如下：
 
 ```
 cd GateTypeValidator
