@@ -3,7 +3,7 @@ USING_QPANDA
 
 int main(void)
 {
-	auto qvm = initQuantumMachine();
+	auto qvm = initQuantumMachine(GPU);
 	auto qubits = qvm->allocateQubits(2);
 
 	QProg prog;
