@@ -1,4 +1,4 @@
-#include "Core/QPanda.h"
+#include "QPanda.h"
 USING_QPANDA
 
 int main(void)
@@ -26,7 +26,7 @@ int main(void)
 		<< CR(q[1], q[2], PI / 2)
 		<< MeasureAll(q, c);
 
-	std::cout << transformQProgToOriginIR(prog, qvm) << std::endl;
+	std::cout << convert_qprog_to_originir(prog, qvm) << std::endl;
 
 	destroyQuantumMachine(qvm);
 	return 0;

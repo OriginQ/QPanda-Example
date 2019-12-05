@@ -1,5 +1,4 @@
-#include "Core/QPanda.h"
-#include "Core/Utilities/QCircuitInfo.h"
+#include "QPanda.h"
 USING_QPANDA
 
 int main(void)
@@ -12,8 +11,8 @@ int main(void)
 		<< CNOT(qubits[0], qubits[1])
 		<< H(qubits[1]);
 
-	auto cir_Matrix = getMatrix(prog);
-
+	auto cir_matrix = getCircuitMatrix(prog);
+	std::cout << cir_matrix << std::endl;
 	destroyQuantumMachine(qvm);
 
 	return 0;
