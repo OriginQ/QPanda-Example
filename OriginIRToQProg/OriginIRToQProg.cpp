@@ -1,4 +1,4 @@
-#include "Core/QPanda.h"
+#include "QPanda.h"
 USING_QPANDA
 
 int main()
@@ -28,10 +28,10 @@ int main()
 	os.close();
 
 	auto machine = initQuantumMachine(QMachineType::CPU);
-	QProg prog = QPanda::transformOriginIRToQProg(filename, machine);
+	QProg prog = QPanda::convert_originir_to_qprog(filename, machine);
 
 	std::cout <<
-		transformQProgToOriginIR(prog, machine)
+		convert_qprog_to_originir(prog, machine)
 		<< std::endl;
 
 	destroyQuantumMachine(machine);

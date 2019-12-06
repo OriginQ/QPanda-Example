@@ -1,5 +1,4 @@
-#include "Core/QPanda.h"
-#include "Core/Utilities/base64.hpp"
+#include "QPanda.h"
 USING_QPANDA
 
 int main(void)
@@ -14,7 +13,7 @@ int main(void)
 		<< CNOT(qubits[1], qubits[2])
 		<< CNOT(qubits[2], qubits[3])
 		;
-	auto data = transformQProgToBinary(prog, qvm_store);
+	auto data = convert_qprog_to_binary(prog, qvm_store);
 	auto base64_data = Base64::encode(data.data(), data.size()); //the resulting binary data is encoded in base64
 	std::string data_str(base64_data.begin(), base64_data.end());
 	std::cout << data_str << std::endl;

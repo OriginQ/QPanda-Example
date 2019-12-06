@@ -1,5 +1,4 @@
-#include "Core/QPanda.h"
-#include "Core/Utilities/base64.hpp"
+#include "QPanda.h"
 
 USING_QPANDA
 
@@ -12,7 +11,7 @@ int main(void)
 
 	std::string data_str = "AAAAAAQAAAAEAAAABAAAAA4AAQAAAAAAJAACAAAAAQAkAAMAAQACACQABAACAAMA";
 	auto data = Base64::decode(data_str.data(), data_str.size());
-	transformBinaryDataToQProg(qvm, data, qubits_parse, cbits_parse, parseProg);
+	convert_binary_data_to_qprog(qvm, data, qubits_parse, cbits_parse, parseProg);
 
 	auto result_parse = probRunTupleList(parseProg, qubits_parse);
 	for (auto &val : result_parse)

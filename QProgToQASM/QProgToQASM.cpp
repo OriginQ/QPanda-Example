@@ -1,4 +1,4 @@
-#include "Core/QPanda.h"
+#include "QPanda.h"
 USING_QPANDA
 
 int main(void)
@@ -21,12 +21,10 @@ int main(void)
 	prog << H(q[1])
 		<< X(q[2])
 		<< h1
-		<< RX(q[1], 2 / PI)
 		<< cir
-		<< CR(q[1], q[2], PI / 2)
 		<< MeasureAll(q, c);
 
-	std::cout << transformQProgToQASM(prog, qvm) << std::endl;
+	std::cout << convert_qprog_to_qasm(prog, qvm) << std::endl;
 
 	destroyQuantumMachine(qvm);
 	return 0;
