@@ -49,5 +49,5 @@ set(EXECUTABLE_OUTPUT_PATH ${PROJECT_BINARY_DIR}/bin)
 find_package(QPANDA REQUIRED)
 include_directories(${QPANDA_INCLUDE_DIR})
 
-add_executable(${PROJECT_NAME} Measure.cpp)
+add_executable(${PROJECT_NAME} QASMToQProg.cpp)
 target_link_libraries(${PROJECT_NAME} ${QPANDA_LIBRARIES})
