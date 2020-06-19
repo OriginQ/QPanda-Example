@@ -7,7 +7,7 @@ int main(void)
 	QProg prog;
 	auto qvec = qAllocMany(3);
 	auto cvec = cAllocMany(3);
-	cvec[0].setValue(0);
+	cvec[0].set_val(0);
 
 	QProg prog_in;
 	prog_in << cvec[0] << H(qvec[cvec[0]]) << (cvec[0] = cvec[0] + 1);
