@@ -42,6 +42,10 @@ GPUQGates.lib;cudart.lib
 
 ![avatar](./img/CudaLoadLibs.png)
 
+6. 设置符合模式，选中C/C++- > 语言 -> 符合模式，设置为否
+
+![avatar](./img/LanguageModel.png)
+
 在设置visual studio 2017项目属性时，一定要注意配置管理器中的Release和Debug、及x64要与项目所选的相同（QPanda2不支持x86平台）。
 
 ![avatar](./img/ConfigurationManager.png)
