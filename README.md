@@ -33,7 +33,7 @@ visual studio 2017 下链接QPanda库需要配置QPanda的头文件地址和QPan
 
 如果安装的是包含GPU计算方式的库需要设置lib路径${QPanda的安装路径}/lib;{CUDA库的路径}/lib/x64
 
-5. 设置附加依赖项,选中链接器 -> 输入 -> 附加依赖项，设置以下依赖库：antlr4.lib;Components.lib;QAlg.lib;QPanda2.lib;TinyXML.lib
+5. 设置附加依赖项,选中链接器 -> 输入 -> 附加依赖项，设置以下依赖库：antlr4.lib;Components.lib;QAlg.lib;QPanda2.lib
 
 ![avatar](./img/LoadLibs.png)
 
