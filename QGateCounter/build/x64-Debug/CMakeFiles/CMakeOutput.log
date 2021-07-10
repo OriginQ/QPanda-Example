@@ -21,7 +21,7 @@ Compilation of the C compiler identification source "CMakeCCompilerId.c" produce
 
 Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CMakeCCompilerId.obj"
 
-The C compiler identification is MSVC, found in "D:/test/QGateCounter/build/x64-Debug/CMakeFiles/3.12.18081601-MSVC_2/CompilerIdC/CMakeCCompilerId.exe"
+The C compiler identification is MSVC, found in "D:/QPanda2-example/QGateCounter/build/x64-Debug/CMakeFiles/3.12.18081601-MSVC_2/CompilerIdC/CMakeCCompilerId.exe"
 
 Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
 Compiler: C:/Program Files (x86)/Microsoft Visual Studio/2017/Community/VC/Tools/MSVC/14.16.27023/bin/HostX64/x64/cl.exe 
@@ -45,60 +45,60 @@ Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" p
 
 Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CMakeCXXCompilerId.obj"
 
-The CXX compiler identification is MSVC, found in "D:/test/QGateCounter/build/x64-Debug/CMakeFiles/3.12.18081601-MSVC_2/CompilerIdCXX/CMakeCXXCompilerId.exe"
+The CXX compiler identification is MSVC, found in "D:/QPanda2-example/QGateCounter/build/x64-Debug/CMakeFiles/3.12.18081601-MSVC_2/CompilerIdCXX/CMakeCXXCompilerId.exe"
 
 Determining if the C compiler works passed with the following output:
-Change Dir: D:/test/QGateCounter/build/x64-Debug/CMakeFiles/CMakeTmp
+Change Dir: D:/QPanda2-example/QGateCounter/build/x64-Debug/CMakeFiles/CMakeTmp
 
-Run Build Command:"C:/Program Files (x86)/Microsoft Visual Studio/2017/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/Ninja/ninja.exe" "cmTC_3f81c"
-[1/2] Building C object CMakeFiles\cmTC_3f81c.dir\testCCompiler.c.obj
-[2/2] Linking C executable cmTC_3f81c.exe
+Run Build Command:"C:/Program Files (x86)/Microsoft Visual Studio/2017/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/Ninja/ninja.exe" "cmTC_66cdc"
+[1/2] Building C object CMakeFiles\cmTC_66cdc.dir\testCCompiler.c.obj
+[2/2] Linking C executable cmTC_66cdc.exe
 
 
 Detecting C compiler ABI info compiled with the following output:
-Change Dir: D:/test/QGateCounter/build/x64-Debug/CMakeFiles/CMakeTmp
+Change Dir: D:/QPanda2-example/QGateCounter/build/x64-Debug/CMakeFiles/CMakeTmp
 
-Run Build Command:"C:/Program Files (x86)/Microsoft Visual Studio/2017/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/Ninja/ninja.exe" "cmTC_a1c64"
-[1/2] Building C object CMakeFiles\cmTC_a1c64.dir\CMakeCCompilerABI.c.obj
-[2/2] Linking C executable cmTC_a1c64.exe
+Run Build Command:"C:/Program Files (x86)/Microsoft Visual Studio/2017/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/Ninja/ninja.exe" "cmTC_a544e"
+[1/2] Building C object CMakeFiles\cmTC_a544e.dir\CMakeCCompilerABI.c.obj
+[2/2] Linking C executable cmTC_a544e.exe
 
 
 
 
 Detecting C [] compiler features compiled with the following output:
-Change Dir: D:/test/QGateCounter/build/x64-Debug/CMakeFiles/CMakeTmp
+Change Dir: D:/QPanda2-example/QGateCounter/build/x64-Debug/CMakeFiles/CMakeTmp
 
-Run Build Command:"C:/Program Files (x86)/Microsoft Visual Studio/2017/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/Ninja/ninja.exe" "cmTC_ffd1b"
-[1/2] Building C object CMakeFiles\cmTC_ffd1b.dir\feature_tests.c.obj
-[2/2] Linking C executable cmTC_ffd1b.exe
+Run Build Command:"C:/Program Files (x86)/Microsoft Visual Studio/2017/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/Ninja/ninja.exe" "cmTC_bcb62"
+[1/2] Building C object CMakeFiles\cmTC_bcb62.dir\feature_tests.c.obj
+[2/2] Linking C executable cmTC_bcb62.exe
 
 
     Feature record: C_FEATURE:1c_function_prototypes
     Feature record: C_FEATURE:1c_variadic_macros
 Determining if the CXX compiler works passed with the following output:
-Change Dir: D:/test/QGateCounter/build/x64-Debug/CMakeFiles/CMakeTmp
+Change Dir: D:/QPanda2-example/QGateCounter/build/x64-Debug/CMakeFiles/CMakeTmp
 
-Run Build Command:"C:/Program Files (x86)/Microsoft Visual Studio/2017/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/Ninja/ninja.exe" "cmTC_ca886"
-[1/2] Building CXX object CMakeFiles\cmTC_ca886.dir\testCXXCompiler.cxx.obj
-[2/2] Linking CXX executable cmTC_ca886.exe
+Run Build Command:"C:/Program Files (x86)/Microsoft Visual Studio/2017/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/Ninja/ninja.exe" "cmTC_74d0e"
+[1/2] Building CXX object CMakeFiles\cmTC_74d0e.dir\testCXXCompiler.cxx.obj
+[2/2] Linking CXX executable cmTC_74d0e.exe
 
 
 Detecting CXX compiler ABI info compiled with the following output:
-Change Dir: D:/test/QGateCounter/build/x64-Debug/CMakeFiles/CMakeTmp
+Change Dir: D:/QPanda2-example/QGateCounter/build/x64-Debug/CMakeFiles/CMakeTmp
 
-Run Build Command:"C:/Program Files (x86)/Microsoft Visual Studio/2017/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/Ninja/ninja.exe" "cmTC_77e9e"
-[1/2] Building CXX object CMakeFiles\cmTC_77e9e.dir\CMakeCXXCompilerABI.cpp.obj
-[2/2] Linking CXX executable cmTC_77e9e.exe
+Run Build Command:"C:/Program Files (x86)/Microsoft Visual Studio/2017/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/Ninja/ninja.exe" "cmTC_f00bb"
+[1/2] Building CXX object CMakeFiles\cmTC_f00bb.dir\CMakeCXXCompilerABI.cpp.obj
+[2/2] Linking CXX executable cmTC_f00bb.exe
 
 
 
 
 Detecting CXX [] compiler features compiled with the following output:
-Change Dir: D:/test/QGateCounter/build/x64-Debug/CMakeFiles/CMakeTmp
+Change Dir: D:/QPanda2-example/QGateCounter/build/x64-Debug/CMakeFiles/CMakeTmp
 
-Run Build Command:"C:/Program Files (x86)/Microsoft Visual Studio/2017/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/Ninja/ninja.exe" "cmTC_6f175"
-[1/2] Building CXX object CMakeFiles\cmTC_6f175.dir\feature_tests.cxx.obj
-[2/2] Linking CXX executable cmTC_6f175.exe
+Run Build Command:"C:/Program Files (x86)/Microsoft Visual Studio/2017/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/Ninja/ninja.exe" "cmTC_24137"
+[1/2] Building CXX object CMakeFiles\cmTC_24137.dir\feature_tests.cxx.obj
+[2/2] Linking CXX executable cmTC_24137.exe
 
 
     Feature record: CXX_FEATURE:1cxx_aggregate_default_initializers

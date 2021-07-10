@@ -1,8 +1,8 @@
-# Install script for directory: D:/test/QIf
+# Install script for directory: D:/QPanda2-example/QIf
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "C:/Users/Origin70208/CMakeBuilds/-639975179/QIf/install/x64-Debug")
+  set(CMAKE_INSTALL_PREFIX "C:/Users/Superior0214/CMakeBuilds/-210111383/QIf/install/x64-Debug")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -40,5 +40,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "D:/test/QIf/build/x64-Debug/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "D:/QPanda2-example/QIf/build/x64-Debug/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

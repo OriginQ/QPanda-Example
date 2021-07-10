@@ -21,7 +21,7 @@ Compilation of the C compiler identification source "CMakeCCompilerId.c" produce
 
 Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CMakeCCompilerId.obj"
 
-The C compiler identification is MSVC, found in "D:/test/GateTypeValidator/build/x64-Debug/CMakeFiles/3.12.18081601-MSVC_2/CompilerIdC/CMakeCCompilerId.exe"
+The C compiler identification is MSVC, found in "D:/QPanda2-example/GateTypeValidator/build/x64-Debug/CMakeFiles/3.12.18081601-MSVC_2/CompilerIdC/CMakeCCompilerId.exe"
 
 Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
 Compiler: C:/Program Files (x86)/Microsoft Visual Studio/2017/Community/VC/Tools/MSVC/14.16.27023/bin/HostX64/x64/cl.exe 
@@ -45,60 +45,60 @@ Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" p
 
 Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CMakeCXXCompilerId.obj"
 
-The CXX compiler identification is MSVC, found in "D:/test/GateTypeValidator/build/x64-Debug/CMakeFiles/3.12.18081601-MSVC_2/CompilerIdCXX/CMakeCXXCompilerId.exe"
+The CXX compiler identification is MSVC, found in "D:/QPanda2-example/GateTypeValidator/build/x64-Debug/CMakeFiles/3.12.18081601-MSVC_2/CompilerIdCXX/CMakeCXXCompilerId.exe"
 
 Determining if the C compiler works passed with the following output:
-Change Dir: D:/test/GateTypeValidator/build/x64-Debug/CMakeFiles/CMakeTmp
+Change Dir: D:/QPanda2-example/GateTypeValidator/build/x64-Debug/CMakeFiles/CMakeTmp
 
-Run Build Command:"C:/Program Files (x86)/Microsoft Visual Studio/2017/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/Ninja/ninja.exe" "cmTC_9f2d2"
-[1/2] Building C object CMakeFiles\cmTC_9f2d2.dir\testCCompiler.c.obj
-[2/2] Linking C executable cmTC_9f2d2.exe
+Run Build Command:"C:/Program Files (x86)/Microsoft Visual Studio/2017/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/Ninja/ninja.exe" "cmTC_81aea"
+[1/2] Building C object CMakeFiles\cmTC_81aea.dir\testCCompiler.c.obj
+[2/2] Linking C executable cmTC_81aea.exe
 
 
 Detecting C compiler ABI info compiled with the following output:
-Change Dir: D:/test/GateTypeValidator/build/x64-Debug/CMakeFiles/CMakeTmp
+Change Dir: D:/QPanda2-example/GateTypeValidator/build/x64-Debug/CMakeFiles/CMakeTmp
 
-Run Build Command:"C:/Program Files (x86)/Microsoft Visual Studio/2017/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/Ninja/ninja.exe" "cmTC_752eb"
-[1/2] Building C object CMakeFiles\cmTC_752eb.dir\CMakeCCompilerABI.c.obj
-[2/2] Linking C executable cmTC_752eb.exe
+Run Build Command:"C:/Program Files (x86)/Microsoft Visual Studio/2017/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/Ninja/ninja.exe" "cmTC_5ed47"
+[1/2] Building C object CMakeFiles\cmTC_5ed47.dir\CMakeCCompilerABI.c.obj
+[2/2] Linking C executable cmTC_5ed47.exe
 
 
 
 
 Detecting C [] compiler features compiled with the following output:
-Change Dir: D:/test/GateTypeValidator/build/x64-Debug/CMakeFiles/CMakeTmp
+Change Dir: D:/QPanda2-example/GateTypeValidator/build/x64-Debug/CMakeFiles/CMakeTmp
 
-Run Build Command:"C:/Program Files (x86)/Microsoft Visual Studio/2017/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/Ninja/ninja.exe" "cmTC_691dd"
-[1/2] Building C object CMakeFiles\cmTC_691dd.dir\feature_tests.c.obj
-[2/2] Linking C executable cmTC_691dd.exe
+Run Build Command:"C:/Program Files (x86)/Microsoft Visual Studio/2017/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/Ninja/ninja.exe" "cmTC_6c366"
+[1/2] Building C object CMakeFiles\cmTC_6c366.dir\feature_tests.c.obj
+[2/2] Linking C executable cmTC_6c366.exe
 
 
     Feature record: C_FEATURE:1c_function_prototypes
     Feature record: C_FEATURE:1c_variadic_macros
 Determining if the CXX compiler works passed with the following output:
-Change Dir: D:/test/GateTypeValidator/build/x64-Debug/CMakeFiles/CMakeTmp
+Change Dir: D:/QPanda2-example/GateTypeValidator/build/x64-Debug/CMakeFiles/CMakeTmp
 
-Run Build Command:"C:/Program Files (x86)/Microsoft Visual Studio/2017/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/Ninja/ninja.exe" "cmTC_526be"
-[1/2] Building CXX object CMakeFiles\cmTC_526be.dir\testCXXCompiler.cxx.obj
-[2/2] Linking CXX executable cmTC_526be.exe
+Run Build Command:"C:/Program Files (x86)/Microsoft Visual Studio/2017/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/Ninja/ninja.exe" "cmTC_b15e8"
+[1/2] Building CXX object CMakeFiles\cmTC_b15e8.dir\testCXXCompiler.cxx.obj
+[2/2] Linking CXX executable cmTC_b15e8.exe
 
 
 Detecting CXX compiler ABI info compiled with the following output:
-Change Dir: D:/test/GateTypeValidator/build/x64-Debug/CMakeFiles/CMakeTmp
+Change Dir: D:/QPanda2-example/GateTypeValidator/build/x64-Debug/CMakeFiles/CMakeTmp
 
-Run Build Command:"C:/Program Files (x86)/Microsoft Visual Studio/2017/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/Ninja/ninja.exe" "cmTC_c79a1"
-[1/2] Building CXX object CMakeFiles\cmTC_c79a1.dir\CMakeCXXCompilerABI.cpp.obj
-[2/2] Linking CXX executable cmTC_c79a1.exe
+Run Build Command:"C:/Program Files (x86)/Microsoft Visual Studio/2017/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/Ninja/ninja.exe" "cmTC_63a64"
+[1/2] Building CXX object CMakeFiles\cmTC_63a64.dir\CMakeCXXCompilerABI.cpp.obj
+[2/2] Linking CXX executable cmTC_63a64.exe
 
 
 
 
 Detecting CXX [] compiler features compiled with the following output:
-Change Dir: D:/test/GateTypeValidator/build/x64-Debug/CMakeFiles/CMakeTmp
+Change Dir: D:/QPanda2-example/GateTypeValidator/build/x64-Debug/CMakeFiles/CMakeTmp
 
-Run Build Command:"C:/Program Files (x86)/Microsoft Visual Studio/2017/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/Ninja/ninja.exe" "cmTC_7af0a"
-[1/2] Building CXX object CMakeFiles\cmTC_7af0a.dir\feature_tests.cxx.obj
-[2/2] Linking CXX executable cmTC_7af0a.exe
+Run Build Command:"C:/Program Files (x86)/Microsoft Visual Studio/2017/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/Ninja/ninja.exe" "cmTC_c5eb1"
+[1/2] Building CXX object CMakeFiles\cmTC_c5eb1.dir\feature_tests.cxx.obj
+[2/2] Linking CXX executable cmTC_c5eb1.exe
 
 
     Feature record: CXX_FEATURE:1cxx_aggregate_default_initializers

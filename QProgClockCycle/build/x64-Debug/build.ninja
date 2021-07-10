@@ -39,7 +39,7 @@ include rules.ninja
 build cmake_object_order_depends_target_testQPanda: phony || CMakeFiles\testQPanda.dir
 build CMakeFiles\testQPanda.dir\QProgClockCycle.cpp.obj: CXX_COMPILER__testQPanda ..\..\QProgClockCycle.cpp || cmake_object_order_depends_target_testQPanda
   FLAGS = /DWIN32 /D_WINDOWS /W0 /GR /EHsc -openmp /MT /Zi /Ob0 /Od /RTC1   -std:c++14
-  INCLUDES = -ID:\qpanda2\ThirdParty -IC:\QPanda2\include\qpanda2
+  INCLUDES = -IC:\QPanda2\include\qpanda2\ThirdParty -IC:\QPanda2\include\qpanda2
   OBJECT_DIR = CMakeFiles\testQPanda.dir
   OBJECT_FILE_DIR = CMakeFiles\testQPanda.dir
   TARGET_COMPILE_PDB = CMakeFiles\testQPanda.dir\
@@ -68,7 +68,7 @@ build bin\testQPanda.exe: CXX_EXECUTABLE_LINKER__testQPanda CMakeFiles\testQPand
 # Utility command for edit_cache
 
 build CMakeFiles\edit_cache.util: CUSTOM_COMMAND
-  COMMAND = cmd.exe /C "cd /D D:\test\QProgClockCycle\build\x64-Debug && "C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E echo "No interactive CMake dialog available.""
+  COMMAND = cmd.exe /C "cd /D D:\QPanda2-example\QProgClockCycle\build\x64-Debug && "C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E echo "No interactive CMake dialog available.""
   DESC = No interactive CMake dialog available...
   restat = 1
 build edit_cache: phony CMakeFiles\edit_cache.util
@@ -77,7 +77,7 @@ build edit_cache: phony CMakeFiles\edit_cache.util
 # Utility command for rebuild_cache
 
 build CMakeFiles\rebuild_cache.util: CUSTOM_COMMAND
-  COMMAND = cmd.exe /C "cd /D D:\test\QProgClockCycle\build\x64-Debug && "C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -HD:\test\QProgClockCycle -BD:\test\QProgClockCycle\build\x64-Debug"
+  COMMAND = cmd.exe /C "cd /D D:\QPanda2-example\QProgClockCycle\build\x64-Debug && "C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -HD:\QPanda2-example\QProgClockCycle -BD:\QPanda2-example\QProgClockCycle\build\x64-Debug"
   DESC = Running CMake to regenerate build system...
   pool = console
   restat = 1

@@ -21,7 +21,7 @@ Compilation of the C compiler identification source "CMakeCCompilerId.c" produce
 
 Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CMakeCCompilerId.obj"
 
-The C compiler identification is MSVC, found in "D:/test/GetMatrix/build/x64-Debug/CMakeFiles/3.12.18081601-MSVC_2/CompilerIdC/CMakeCCompilerId.exe"
+The C compiler identification is MSVC, found in "D:/QPanda2-example/GetMatrix/build/x64-Debug/CMakeFiles/3.12.18081601-MSVC_2/CompilerIdC/CMakeCCompilerId.exe"
 
 Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
 Compiler: C:/Program Files (x86)/Microsoft Visual Studio/2017/Community/VC/Tools/MSVC/14.16.27023/bin/HostX64/x64/cl.exe 
@@ -45,60 +45,60 @@ Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" p
 
 Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CMakeCXXCompilerId.obj"
 
-The CXX compiler identification is MSVC, found in "D:/test/GetMatrix/build/x64-Debug/CMakeFiles/3.12.18081601-MSVC_2/CompilerIdCXX/CMakeCXXCompilerId.exe"
+The CXX compiler identification is MSVC, found in "D:/QPanda2-example/GetMatrix/build/x64-Debug/CMakeFiles/3.12.18081601-MSVC_2/CompilerIdCXX/CMakeCXXCompilerId.exe"
 
 Determining if the C compiler works passed with the following output:
-Change Dir: D:/test/GetMatrix/build/x64-Debug/CMakeFiles/CMakeTmp
+Change Dir: D:/QPanda2-example/GetMatrix/build/x64-Debug/CMakeFiles/CMakeTmp
 
-Run Build Command:"C:/Program Files (x86)/Microsoft Visual Studio/2017/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/Ninja/ninja.exe" "cmTC_e0e81"
-[1/2] Building C object CMakeFiles\cmTC_e0e81.dir\testCCompiler.c.obj
-[2/2] Linking C executable cmTC_e0e81.exe
+Run Build Command:"C:/Program Files (x86)/Microsoft Visual Studio/2017/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/Ninja/ninja.exe" "cmTC_e5334"
+[1/2] Building C object CMakeFiles\cmTC_e5334.dir\testCCompiler.c.obj
+[2/2] Linking C executable cmTC_e5334.exe
 
 
 Detecting C compiler ABI info compiled with the following output:
-Change Dir: D:/test/GetMatrix/build/x64-Debug/CMakeFiles/CMakeTmp
+Change Dir: D:/QPanda2-example/GetMatrix/build/x64-Debug/CMakeFiles/CMakeTmp
 
-Run Build Command:"C:/Program Files (x86)/Microsoft Visual Studio/2017/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/Ninja/ninja.exe" "cmTC_88e16"
-[1/2] Building C object CMakeFiles\cmTC_88e16.dir\CMakeCCompilerABI.c.obj
-[2/2] Linking C executable cmTC_88e16.exe
+Run Build Command:"C:/Program Files (x86)/Microsoft Visual Studio/2017/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/Ninja/ninja.exe" "cmTC_7a14f"
+[1/2] Building C object CMakeFiles\cmTC_7a14f.dir\CMakeCCompilerABI.c.obj
+[2/2] Linking C executable cmTC_7a14f.exe
 
 
 
 
 Detecting C [] compiler features compiled with the following output:
-Change Dir: D:/test/GetMatrix/build/x64-Debug/CMakeFiles/CMakeTmp
+Change Dir: D:/QPanda2-example/GetMatrix/build/x64-Debug/CMakeFiles/CMakeTmp
 
-Run Build Command:"C:/Program Files (x86)/Microsoft Visual Studio/2017/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/Ninja/ninja.exe" "cmTC_737b1"
-[1/2] Building C object CMakeFiles\cmTC_737b1.dir\feature_tests.c.obj
-[2/2] Linking C executable cmTC_737b1.exe
+Run Build Command:"C:/Program Files (x86)/Microsoft Visual Studio/2017/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/Ninja/ninja.exe" "cmTC_7812c"
+[1/2] Building C object CMakeFiles\cmTC_7812c.dir\feature_tests.c.obj
+[2/2] Linking C executable cmTC_7812c.exe
 
 
     Feature record: C_FEATURE:1c_function_prototypes
     Feature record: C_FEATURE:1c_variadic_macros
 Determining if the CXX compiler works passed with the following output:
-Change Dir: D:/test/GetMatrix/build/x64-Debug/CMakeFiles/CMakeTmp
+Change Dir: D:/QPanda2-example/GetMatrix/build/x64-Debug/CMakeFiles/CMakeTmp
 
-Run Build Command:"C:/Program Files (x86)/Microsoft Visual Studio/2017/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/Ninja/ninja.exe" "cmTC_15374"
-[1/2] Building CXX object CMakeFiles\cmTC_15374.dir\testCXXCompiler.cxx.obj
-[2/2] Linking CXX executable cmTC_15374.exe
+Run Build Command:"C:/Program Files (x86)/Microsoft Visual Studio/2017/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/Ninja/ninja.exe" "cmTC_97e03"
+[1/2] Building CXX object CMakeFiles\cmTC_97e03.dir\testCXXCompiler.cxx.obj
+[2/2] Linking CXX executable cmTC_97e03.exe
 
 
 Detecting CXX compiler ABI info compiled with the following output:
-Change Dir: D:/test/GetMatrix/build/x64-Debug/CMakeFiles/CMakeTmp
+Change Dir: D:/QPanda2-example/GetMatrix/build/x64-Debug/CMakeFiles/CMakeTmp
 
-Run Build Command:"C:/Program Files (x86)/Microsoft Visual Studio/2017/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/Ninja/ninja.exe" "cmTC_6ac4b"
-[1/2] Building CXX object CMakeFiles\cmTC_6ac4b.dir\CMakeCXXCompilerABI.cpp.obj
-[2/2] Linking CXX executable cmTC_6ac4b.exe
+Run Build Command:"C:/Program Files (x86)/Microsoft Visual Studio/2017/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/Ninja/ninja.exe" "cmTC_9925e"
+[1/2] Building CXX object CMakeFiles\cmTC_9925e.dir\CMakeCXXCompilerABI.cpp.obj
+[2/2] Linking CXX executable cmTC_9925e.exe
 
 
 
 
 Detecting CXX [] compiler features compiled with the following output:
-Change Dir: D:/test/GetMatrix/build/x64-Debug/CMakeFiles/CMakeTmp
+Change Dir: D:/QPanda2-example/GetMatrix/build/x64-Debug/CMakeFiles/CMakeTmp
 
-Run Build Command:"C:/Program Files (x86)/Microsoft Visual Studio/2017/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/Ninja/ninja.exe" "cmTC_01a5c"
-[1/2] Building CXX object CMakeFiles\cmTC_01a5c.dir\feature_tests.cxx.obj
-[2/2] Linking CXX executable cmTC_01a5c.exe
+Run Build Command:"C:/Program Files (x86)/Microsoft Visual Studio/2017/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/Ninja/ninja.exe" "cmTC_ee2e1"
+[1/2] Building CXX object CMakeFiles\cmTC_ee2e1.dir\feature_tests.cxx.obj
+[2/2] Linking CXX executable cmTC_ee2e1.exe
 
 
     Feature record: CXX_FEATURE:1cxx_aggregate_default_initializers
