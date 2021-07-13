@@ -10,7 +10,7 @@ int main(void)
 	cvec[0].set_val(0);
 
 	QProg prog_in;
-	prog_in << cvec[0] << H(qvec[cvec[0]]) << (cvec[0] = cvec[0] + 1);
+	prog_in <<BARRIER(qvec)<< cvec[0] << H(qvec[cvec[0]]) << (cvec[0] = cvec[0] + 1);
 	auto qwhile = createWhileProg(cvec[0] < 3, prog_in);
 	prog << qwhile;
 	auto result = probRunTupleList(prog, qvec);

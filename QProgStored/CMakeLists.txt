@@ -1,7 +1,12 @@
 ﻿cmake_minimum_required(VERSION 3.1)
 project(testQPanda)
 set(CMAKE_MODULE_PATH ${CMAKE_MODULE_PATH} "${QPANDA_INSTALL_DIR}/lib/cmake")
-
+IF (CMAKE_BUILD_TYPE MATCHES "Debug" 
+        OR CMAKE_BUILD_TYPE MATCHES "None")
+    MESSAGE(STATUS "CMAKE_BUILD_TYPE is Debug")
+ELSEIF (CMAKE_BUILD_TYPE MATCHES "Release")
+    MESSAGE(STATUS "CMAKE_BUILD_TYPE is Release")
+ENDIF()
 set(CMAKE_CXX_STANDARD 14)
 if (MSVC)
     list(APPEND EXTRA_LDFLAGS
@@ -37,7 +42,6 @@ if (MSVC)
     endif()
 else ()
     add_definitions("-w -DGTEST_USE_OWN_TR1_TUPLE=1")
-    set(CMAKE_BUILD_TYPE "Release")
     set(CMAKE_CXX_FLAGS_DEBUG "$ENV{CXXFLAGS} -O0 -g -ggdb")
     set(CMAKE_CXX_FLAGS_RELEASE "$ENV{CXXFLAGS} -O3")
     add_compile_options(-fpermissive)
