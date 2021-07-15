@@ -1,9 +1,9 @@
-#include "Core/QPanda.h"
+#include "QPanda.h"
 USING_QPANDA
 
 int main(void)
 {
-	auto qvm = initQuantumMachine(GPU);
+	auto qvm = initQuantumMachine(CPU);
 	auto qubits = qvm->allocateQubits(2);
 
 	QProg prog;

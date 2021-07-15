@@ -1,4 +1,4 @@
-#include "Core/QPanda.h"
+#include "QPanda.h"
 USING_QPANDA
 
 
@@ -14,7 +14,7 @@ int main(void)
 		<< RX(qubits[3], 3.14)
 		<< Measure(qubits[0], cbits[0]);
 
-	std::string instructions = transformQProgToQuil(prog, qvm);
+	std::string instructions = convert_qprog_to_quil(prog, qvm);
 	std::cout << instructions << std::endl;
 	destroyQuantumMachine(qvm);
 	return 0;

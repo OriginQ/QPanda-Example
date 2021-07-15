@@ -1,4 +1,4 @@
-#include "Core/QPanda.h"
+#include "QPanda.h"
 USING_QPANDA
 
 int main(void)
@@ -35,6 +35,5 @@ int main(void)
 		std::cout << val << " ";
 	}
 	std::cout << std::endl;
-
 	return 0;
 }
