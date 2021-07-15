@@ -1,3 +1,0 @@
-D:/QPanda2-example/PMeasure/build/x64-Debug/CMakeFiles/testQPanda.dir
-D:/QPanda2-example/PMeasure/build/x64-Debug/CMakeFiles/edit_cache.dir
-D:/QPanda2-example/PMeasure/build/x64-Debug/CMakeFiles/rebuild_cache.dir

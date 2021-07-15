@@ -14,6 +14,5 @@ int main(void)
 	auto cir_matrix = getCircuitMatrix(prog);
 	std::cout << cir_matrix << std::endl;
 	destroyQuantumMachine(qvm);
-
 	return 0;
 }
